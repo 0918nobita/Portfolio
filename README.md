@@ -23,16 +23,17 @@
 
 - **FORTH 言語入門書「DARK FORTH - Prologue」** [BOOTH](https://t.co/P311mCRU0U)
   - A5 サイズ, 64 ページの技術同人誌
-  - [技術書典7](https://techbookfest.org/event/tbf07) で頒布する ([サークル詳細ページ](https://techbookfest.org/event/tbf07/circle/5638538418716672))
+  - [技術書典7](https://techbookfest.org/event/tbf07) で頒布した ([サークル詳細ページ](https://techbookfest.org/event/tbf07/circle/5638538418716672))
 - (開発中) **自作プログラミング言語「Psyche」** [リポジトリ](https://github.com/0918nobita/psyche)
   - WASM を出力する軽量言語のコンパイラ
-  - 現在は OCaml から F# への移行作業中
+  - OCaml から F# への移行作業中
+  - SECD 仮想マシンを F# で実装して、コンパイルの新しいロジックに活かせるか検証中
 - (試作段階) **LT動画配信システム「RCC TV」** [リポジトリ](https://github.com/0918nobita/LTVOD)
   - フロントエンド : React (TypeScript) + Redux + redux-saga
   - バックエンド : Express (TypeScript) + Nginx + MySQL
   - Docker Compose で仮想実行環境を一括管理
 - **Hello World in Rust (without libc)**  [リポジトリ](https://github.com/0918nobita/low-level-helloworld)
-  - libc に依存せず、直接連携する手書きアセンブリプログラム (x86_64) からシステムコールを発生させて Hello World するプログラムを作成した
+  - libc に依存せず、直接連携する手書きアセンブリプログラム (x86_64) から<br>システムコールを発生させて Hello World するプログラムを作成した
 - **プログレッシブWebアプリ「Tsundoku」** [リポジトリ](https://github.com/TsundokuApp/Tsundoku)
   - Angular 6 + Ionic v3 + NgRx + Firebase + Netlify
   - Ionic で UI の構築を行う (Angular ベース)
@@ -99,7 +100,7 @@
 
 ## 経歴
 
-- (2019/09/04 ～ 09/13) ピクシブ株式会社 サービス開発インターンシップ2019夏「SUMMER BOOT CAMP 2019」に参加して、[pixivFACTORY](https://factory.pixiv.net/) の実際の開発に携わった
+- (2019/09/04 ～ 09/13) ピクシブ株式会社 サービス開発インターンシップ2019夏<br>「SUMMER BOOT CAMP 2019」に参加して、[pixivFACTORY](https://factory.pixiv.net/) の実際の開発に携わった
 - (2019/02/21 〜 03/29) 株式会社サイバーエージェント エンジニアJOB 就業型インターンで<br>[AbemaTV](https://abema.tv/) Web チームに参加して実際の開発に携わった
 - LINE株式会社 2018 夏インターンシップ エンジニアスクールコースを修了
 - 基本情報技術者 を取得

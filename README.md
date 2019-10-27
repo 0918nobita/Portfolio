@@ -1,6 +1,6 @@
 # Portfolio
 
-[![Twitter @0918nobita](https://img.shields.io/badge/Twitter-%400918nobita-blue.svg)](https://twitter.com/0918nobita) [![Qiita 0918nobita](https://img.shields.io/badge/Qiita-0918nobita-brightgreen.svg)](https://qiita.com/0918nobita)
+[![Twitter @0918nobita](https://img.shields.io/badge/Twitter-%400918nobita-blue.svg?style=flat-square&logo=twitter)](https://twitter.com/0918nobita) [![Scrapbox 0918nobita](https://img.shields.io/badge/Scrapbox-0918nobita-3CAC86?style=flat-square)](https://scrapbox.io/0918nobita/) [![Qiita 0918nobita](https://img.shields.io/badge/Qiita-0918nobita-brightgreen.svg?style=flat-square)](https://qiita.com/0918nobita)
 
 松本 幸大  
 2000/02/16 生 (現在 19 歳)

@@ -5,33 +5,41 @@
 松本 幸大  
 2000/02/16 生 (現在 19 歳)
 
-## 興味分野
+## 概要
 
-- Web フロントエンド
-  - Angular, React + Hooks
-  - RxJS, NgRx, Redux + (redux-saga | redux-thunk)
-  - WASM, PWA
-  - Elm
-- 関数型プログラミング (OCaml, F#, Haskell, Elm)
-- 依存型プログラミング (Idris)
-- メタプログラミング (FORTH, OCaml PPX)
-- プログラム意味論 (操作的意味論, 表示的意味論)
-- 型システム / プログラミング言語処理系
-- 低レイヤ (アセンブリ言語 x86_64)
-- 3D グラフィックス (Vulkan)
+- 滋賀県在住
+- リモート or 京都オフィスにて、TypeScript と Haskell を用いた Web アプリの開発案件を担当
+- プログラミング言語そのものに興味があり、日々技術書やネット上の記事を参考に勉強を進めている
+  - 型システム・ラムダ計算・意味論
+  - 関数型プログラミング
+    - F#, OCaml, Haskell, Elm
+  - その他のプログラミング言語
+    - Idris (依存型), FORTH (低レイヤ・メタプログラミング)
+  - 言語処理系
+    - 自作プログラミング言語のインタプリタ・コンパイラの開発
+- Web アプリ開発
+  - Babel, Webpack, Parcel 等のビルド環境の利用
+  - Angular + NgRx
+  - React(TS) + Redux (+ redux-thunk | redux-saga) + Hooks
+  - Vue.js(ES or TS) + Vuex
+  - Firebase Cloud Functions / Firestore を用いたサーバーレス Web アプリ
+  - WebAssembly
+- 「作りたいものに見合った技術選定をする」ことを重要視している
+  - 日々の勉強には、その技術選定の際の自分の引き出しを増やす目的もある
+  - 機能要件のための技術選定か、開発者の体験向上のための技術選定かを区別して考えている
 
 ## 制作物
 
+- (執筆作業中) **技術同人誌「F# ではじめる パーサコンビネータ」**
+  - F# を用いて、実際に様々なパーサ / パーサコンビネータを実装しながら周辺の理論や技術を学べる同人誌
+  - 継続、モナド、ビルダークラス、コンピュテーション式などについて言及する
+  - [第二回技術書同人誌博覧会](https://gishohaku.dev/)・[技術書典 8](https://techbookfest.org/event/tbf08) で頒布予定
 - **FORTH 言語入門書「DARK FORTH - Prologue」** [BOOTH](https://t.co/P311mCRU0U)
   - A5 サイズ, 64 ページの技術同人誌
   - [技術書典 7](https://techbookfest.org/event/tbf07) で頒布した ([サークル詳細ページ](https://techbookfest.org/event/tbf07/circle/5638538418716672))
 - (開発中) **自作プログラミング言語「Psyche」** [リポジトリ](https://github.com/0918nobita/psyche)
   - WASM を出力する軽量言語のコンパイラ
   - 実行環境のひとつである SECD 仮想マシンを F# で実装している
-- (試作段階) **LT 動画配信システム「RCC TV」** [リポジトリ](https://github.com/0918nobita/LTVOD)
-  - フロントエンド : React (TypeScript) + Redux + redux-saga
-  - バックエンド : Express (TypeScript) + Nginx + MySQL
-  - Docker Compose で仮想実行環境を一括管理
 - **Hello World in Rust (without libc)** [リポジトリ](https://github.com/0918nobita/low-level-helloworld)
   - libc に依存せず、直接連携する手書きアセンブリプログラム (x86_64) から<br>システムコールを発生させて Hello World するプログラムを作成した
 - **プログレッシブ Web アプリ「Tsundoku」** [リポジトリ](https://github.com/TsundokuApp/Tsundoku)
@@ -53,17 +61,8 @@
   - C# + WPF
   - 初めて開発したウィンドウアプリケーション
 
-## 好きなプログラミング言語
 
-- FORTH
-- Idris
-- OCaml
-- F#
-- TypeScript
-- Elm
-- Haskell
-
-## 勉強中の技術 (読んでいる技術書等)
+## 今読んでいる技術書
 
 - [3D グラフィックス API Vulkan を出来るだけやさしく解説する本](https://fadis.booth.pm/items/1562222)
 - [Clean Architecture - 達人に学ぶソフトウェアの構造と設計](https://www.amazon.co.jp/Clean-Architecture-%E9%81%94%E4%BA%BA%E3%81%AB%E5%AD%A6%E3%81%B6%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E6%A7%8B%E9%80%A0%E3%81%A8%E8%A8%AD%E8%A8%88-Robert-C-Martin/dp/4048930656/ref=sr_1_1?ie=UTF8&qid=1548211522&sr=8-1&keywords=clean+architecture)
@@ -92,7 +91,12 @@
 
 ### イベント
 
-- [LINE Developer Meetup](https://line.connpass.com/), [ng-kyoto Angular Meetup](http://ng-kyoto.github.io/), [技術書典](https://techbookfest.org/), [プランクトンサミット](https://plankton-summit.github.io/) などの技術者向けイベントに参加
+- [FRONTEND CONFERENCE 2019](https://2019.kfug.jp/) (会場スタッフとして参加)
+- [LINE Developer Meetup](https://line.connpass.com/)
+  - 登壇して PWA についての LT を行った ([発表資料](https://speakerdeck.com/0918nobita/firebasewoshi-tutezuo-rupwa-line-developer-meetup-number-43))
+- [ng-kyoto Angular Meetup](http://ng-kyoto.github.io/)
+- [技術書典](https://techbookfest.org/)
+- [プランクトンサミット](https://plankton-summit.github.io/)
 
 ## 経歴
 

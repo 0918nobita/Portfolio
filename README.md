@@ -39,17 +39,18 @@
   - [技術書典 7](https://techbookfest.org/event/tbf07) で頒布した ([サークル詳細ページ](https://techbookfest.org/event/tbf07/circle/5638538418716672))
 - (開発中) **自作プログラミング言語「Psyche」** [リポジトリ](https://github.com/0918nobita/psyche)
   - WASM を出力する軽量言語のコンパイラ
-  - 実行環境のひとつである SECD 仮想マシンを F# で実装している
+  - 当初は OCaml で開発し OPAM でリリースしていたが、<br>現在は F# に移植して開発を進めている ([OPAM パッケージ詳細ページ](https://opam.ocaml.org/packages/psyche/))
+- (開発中) **プログレッシブ Web アプリ「Tsundoku」** [リポジトリ](https://github.com/0918nobita/Tsundoku)
+  - (新バージョン) React v16 + @ionic/react v4
+    - [Undux](https://undux.org/) でフロントエンドの状態管理
+  - (旧バージョン) Angular v6 + [Ionic](https://ionicframework.com/) v3
+    - [NgRx](https://ngrx.io/) でフロントエンドの状態管理
+    - [Firebase Authentication](https://firebase.google.com/docs/auth/?hl=ja) でユーザー管理
+    - [Cloud Functions](https://firebase.google.com/docs/functions/?hl=ja) でサーバーサイドスクリプトを実装
+    - [Cloud Firestore](https://firebase.google.com/docs/firestore/?hl=ja) (セーブデータを保存)
+    - [Netlify](https://www.netlify.com/) Hosting (CD)
 - **Hello World in Rust (without libc)** [リポジトリ](https://github.com/0918nobita/low-level-helloworld)
   - libc に依存せず、直接連携する手書きアセンブリプログラム (x86_64) から<br>システムコールを発生させて Hello World するプログラムを作成した
-- **プログレッシブ Web アプリ「Tsundoku」** [リポジトリ](https://github.com/TsundokuApp/Tsundoku)
-  - Angular 6 + Ionic v3 + NgRx + Firebase + Netlify
-  - Ionic で UI の構築を行う (Angular ベース)
-  - Firebase Authentication でユーザー管理
-  - Cloud Function (FaaS) でサーバーサイドスクリプトを実装
-  - Cloud Firestore (NoSQL) でセーブデータを保存
-  - Netlify Hosting で静的ファイルを配信 (GitHub への Push をフックして自動デプロイ)
-  - NgRx を用いて、Flux パターンでフロントエンドの状態管理を行う
 - **自作プログラミング言語「Xemime」** [リポジトリ](https://github.com/xemime-lang/xemime)
   - Kotlin + Java + Gradle (開発初期は Java + Maven)
   - Xemime: JavaScript に影響を受けたプロトタイプベースオブジェクト指向言語

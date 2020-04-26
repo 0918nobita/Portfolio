@@ -3,11 +3,10 @@
 [![Twitter @0918nobita](https://img.shields.io/badge/Twitter-%400918nobita-blue.svg?style=flat-square&logo=twitter)](https://twitter.com/0918nobita) [![Scrapbox 0918nobita](https://img.shields.io/badge/Scrapbox-0918nobita-3CAC86?style=flat-square)](https://scrapbox.io/0918nobita/) [![Qiita 0918nobita](https://img.shields.io/badge/Qiita-0918nobita-brightgreen.svg?style=flat-square)](https://qiita.com/0918nobita)
 
 松本 幸大  
-2000/02/16 生 (現在 19 歳)
+2000/02/16 生 (現在 20 歳)
 
 ## 概要
 
-- 滋賀県在住
 - リモート or 京都オフィスにて、TypeScript と Haskell を用いた Web アプリの開発案件を担当
 - プログラミング言語そのものに興味があり、日々技術書やネット上の記事を参考に勉強を進めている
   - 型システム・ラムダ計算・意味論
@@ -30,25 +29,19 @@
 
 ## 制作物
 
-- (執筆作業中) **技術同人誌「F# ではじめる パーサコンビネータ」**
-  - F# を用いて、実際に様々なパーサ / パーサコンビネータを実装しながら周辺の理論や技術を学べる同人誌
-  - 継続、モナド、ビルダークラス、コンピュテーション式などについて言及する
-  - [第二回技術書同人誌博覧会](https://gishohaku.dev/)・[技術書典 8](https://techbookfest.org/event/tbf08) で頒布予定
 - **FORTH 言語入門書「DARK FORTH - Prologue」** [BOOTH](https://t.co/P311mCRU0U)
   - A5 サイズ, 64 ページの技術同人誌
   - [技術書典 7](https://techbookfest.org/event/tbf07) で頒布した ([サークル詳細ページ](https://techbookfest.org/event/tbf07/circle/5638538418716672))
-- (開発中) **自作プログラミング言語「Psyche」** [リポジトリ](https://github.com/0918nobita/psyche)
+- **自作プログラミング言語「Psyche」** [リポジトリ](https://github.com/0918nobita/psyche)
   - WASM を出力する軽量言語のコンパイラ
-  - 当初は OCaml で開発し OPAM でリリースしていたが、<br>現在は F# に移植して開発を進めている ([OPAM パッケージ詳細ページ](https://opam.ocaml.org/packages/psyche/))
-- (開発中) **プログレッシブ Web アプリ「Tsundoku」** [リポジトリ](https://github.com/0918nobita/Tsundoku)
-  - (新バージョン) React v16 + @ionic/react v4
-    - [Undux](https://undux.org/) でフロントエンドの状態管理
-  - (旧バージョン) Angular v6 + [Ionic](https://ionicframework.com/) v3
-    - [NgRx](https://ngrx.io/) でフロントエンドの状態管理
-    - [Firebase Authentication](https://firebase.google.com/docs/auth/?hl=ja) でユーザー管理
-    - [Cloud Functions](https://firebase.google.com/docs/functions/?hl=ja) でサーバーサイドスクリプトを実装
-    - [Cloud Firestore](https://firebase.google.com/docs/firestore/?hl=ja) (セーブデータを保存)
-    - [Netlify](https://www.netlify.com/) Hosting (CD)
+  - [OPAM パッケージ詳細ページ](https://opam.ocaml.org/packages/psyche/)
+- **プログレッシブ Web アプリ「Tsundoku」** [リポジトリ](https://github.com/0918nobita/Tsundoku)
+  - Angular v6 + [Ionic](https://ionicframework.com/) v3
+  - [NgRx](https://ngrx.io/) でフロントエンドの状態管理
+  - [Firebase Authentication](https://firebase.google.com/docs/auth/?hl=ja) でユーザー管理
+  - [Cloud Functions](https://firebase.google.com/docs/functions/?hl=ja) でサーバーサイドスクリプトを実装
+  - [Cloud Firestore](https://firebase.google.com/docs/firestore/?hl=ja) (セーブデータを保存)
+  - [Netlify](https://www.netlify.com/) Hosting (CD)
 - **Hello World in Rust (without libc)** [リポジトリ](https://github.com/0918nobita/low-level-helloworld)
   - libc に依存せず、直接連携する手書きアセンブリプログラム (x86_64) から<br>システムコールを発生させて Hello World するプログラムを作成した
 - **自作プログラミング言語「Xemime」** [リポジトリ](https://github.com/xemime-lang/xemime)
